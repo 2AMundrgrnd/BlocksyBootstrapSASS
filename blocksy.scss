@@ -46,10 +46,10 @@ $dark:          $gray-700 !default;
     --paletteColor2: var(--bs-secondary);
     --paletteColor3: var(--bs-yellow);
     --paletteColor4: var(--bs-white);
-    --paletteColor5: var(--bs-$gray-600);
-    --paletteColor6: var(--bs-$gray-700);
-    --paletteColor7: var(--bs-$gray-800);
-    --paletteColor8: var(--bs-$gray-900);
+    --paletteColor5: var(--bs-gray-600);
+    --paletteColor6: var(--bs-gray-700);
+    --paletteColor7: var(--bs-gray-800);
+    --paletteColor8: var(--bs-gray-900);
 
     --qubely-color-1: var(--paletteColor1);
     --qubely-color-2: var(--paletteColor2);
@@ -87,11 +87,11 @@ $dark:          $gray-700 !default;
     --form-selection-control-initial-color: var(--border-color);
     --form-selection-control-accent-color: var(--paletteColor1);
 
-    --color: $white;
+    --color: var(--bs-white);
     --linkInitialColor: var(--paletteColor1);
     --linkHoverColor: var(--paletteColor3);
 
-    --selectionTextColor: #ffffff;
+    --selectionTextColor: var(--paletteColor2);
     --selectionBackgroundColor: var(--paletteColor1);
     
     --headings-color: var(--paletteColor1);
@@ -109,6 +109,8 @@ $dark:          $gray-700 !default;
     --content-vertical-spacing: 130px;
     --narrow-container-max-width: 750px;
     --wide-offset: 130px;
+    --body-color: var(--bs-white);
+
 }
 
 
